@@ -2,8 +2,7 @@ package com.example.ball;
 
 import android.graphics.Canvas;
 
-public abstract class Obj
-{
+public abstract class Obj {
     protected float velx, vely, x, y, diametr;
     abstract public void draw(Canvas canvas);
     public Obj()
