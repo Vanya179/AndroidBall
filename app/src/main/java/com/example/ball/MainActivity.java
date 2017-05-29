@@ -1,7 +1,7 @@
 package com.example.ball;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -11,5 +11,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(new Drawing(this));
+
+        // Testing commits
     }
 }
